@@ -4,7 +4,7 @@ Bienvenido/a al repositorio de EGO Design . Aquí encontrará los archivos neces
 
 - 1️⃣ Clonar el repositorio
 
-git clone https://github.com/GonzalezZoe/EGO-design.git
+git clone https://github.com/GonzalezZoe/ego-design-challenge.git
 cd EGO-design
 
 - 2️⃣ Instalar Dependencias ❗
