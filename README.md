@@ -11,12 +11,12 @@ cd ego-design-challenge
 
 es muy importante que tengas node.js instalado!
 
-https://nodejs.org/es/download 
+https://nodejs.org/es/download <br/>
 Asegúrese de tener Node.js instalado en su sistema. Luego, ejecutá: npm install
 
 - 3️⃣ Levantar el Servidor
 
-Para ejecutar el proyecto localmente ejecutá: npm run dev.
+Para ejecutar el proyecto localmente ejecutá: npm run dev. <br/>
 Abrí http://localhost:3000 en tu navegador para ver la aplicación en funcionamiento.
 
 ## 🛠️ Tecnologías Utilizadas
