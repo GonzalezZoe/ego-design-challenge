@@ -1,10 +1,22 @@
-import Navbar from "../../components/Navbar";
+"use client";
+import { useEffect, useState } from 'react';
+import Navbar from '../../ego-app/components/Navbar';
 import './styles/globals.scss';
-import HomePage from "../../components/HomePage";
+import HomePage from '../../ego-app/components/HomePage';
 import ModelSheet from "./modelos/[slug]/page";
-import Footer from "../../components/Footer";
+import Footer from '../../ego-app/components/Footer';
 
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
+  const [showFooter, setShowFooter] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFooter(true);
+    }, 500); // 0.5 segundos de demora
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <html lang="en">
       <head>
@@ -17,8 +29,9 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar /> 
         {children}
-      <Footer/>
+        {showFooter && <Footer />}
       </body>
     </html>
   );
 }
+

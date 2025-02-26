@@ -90,7 +90,7 @@ display: flex;
 
 @media (max-width:575.98px) {
   .image-product {
-    max-width: 350px !important;
+    width: 100% !important;
   }
   .flickity-prev-next-button.next {
     display: none;
@@ -445,4 +445,8 @@ hr {
 
 .footer-content {
   margin-top: auto; 
+}
+
+.image-product {
+  width: 70%;
 }

@@ -3,7 +3,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import ProductSlider from '../../../../components/ProductSlider';
+import ProductSlider from '../../../../ego-app/components/ProductSlider';
 
 export default function ModelSheet() {
   const { slug } = useParams();
